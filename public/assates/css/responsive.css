@@ -1,0 +1,163 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container-fluid{
+        /* border: 5px solid gray; */
+        display: block !important;
+     }
+     .navbar-header.fixed-brand {
+        width: 30%;
+        display: inline-flex;
+    }
+    a.navbar-brand{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .user-profile {
+        width: 70%;
+        display: inline-block;
+    }
+    .sd-dn{
+        display: none !important;
+    }
+    .user-profile .user-image span {
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 12px !important;
+        color: #000;
+    }
+    .container-fluid .btn {
+      
+        margin-bottom: -10px !important;
+       
+    }
+    div#wrapper{
+        margin-top: 0px !important;
+    }
+
+    .heading h2 {
+        font-size: 16px;
+    }
+    .donation-img img {
+       display: none;
+    }
+    .year {
+     
+        width: 56%;
+       
+    }
+
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container-fluid{
+        /* border: 5px solid orange; */
+     }
+     .container-fluid {
+        display: block !important;
+    }
+    .navbar-header.fixed-brand {
+        display: inline-block;
+        width: 33%;
+    }
+    .search-bar {
+        position: relative;
+        width: 30%;
+        display: inline-block;
+    }
+    .user-profile {
+        width: 40%;
+        display: inline-block;
+    }
+   
+    div#wrapper{
+        margin-top: 0px !important;
+    }
+    /* .donation-img img {
+        display: none;
+     } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-md-9{
+        width: 75% !important;
+    }
+    .navbar-header.fixed-brand{
+        width: 30%;
+        display: inline-block;
+    }
+    .container-fluid{
+       /* border: 5px solid red; */
+    }
+    .container-fluid {
+        display: block !important;
+    }
+    .navbar-header.fixed-brand {
+        display: inline-block;
+        width: 33%;
+    }
+    .search-bar {
+        position: relative;
+        width: 33%;
+        display: inline-block;
+    }
+    .user-profile {
+        width: 33%;
+        display: inline-block;
+    }
+    
+.dash-box {
+   
+    overflow: hidden;
+}
+.search-bar button {
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+}
+.search-bar input.form-control.mr-sm-2{
+    display: inline-block;
+    width: 100%!important;
+    vertical-align: middle;
+}
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333% !important;
+}
+.heading h2 {
+    font-size: 18px;
+}
+/* .donation-img img {
+    display: none !important;
+} */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    /* .container-fluid{
+        /* border: 5px solid green; 
+     } */
+    
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* .container-fluid{
+        /* border: 5px solid yellow; 
+     } */
+}
